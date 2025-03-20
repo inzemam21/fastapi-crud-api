@@ -1,0 +1,28 @@
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Dependency directories (if you accidentally committed them)
+*.egg-info/
+dist/
+build/
+
+# macOS-specific
+.DS_Store
+
+# Optional: Ignore large dependency folders if they sneak in
+site-packages/
