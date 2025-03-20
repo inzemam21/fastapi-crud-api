@@ -22,7 +22,7 @@ A production-grade RESTful API built with **FastAPI**, featuring CRUD operations
 ---
 
 ## 🛠️ Project Structure
-``
+```
 fastapi-crud-api/
 ├── app/
 │   ├── init.py
@@ -42,7 +42,7 @@ fastapi-crud-api/
 │   └── app.log              # Log files (auto-generated)
 ├── .gitignore               # Git ignore rules
 └── README.md                # This file
-``
+```
 
 ---
 

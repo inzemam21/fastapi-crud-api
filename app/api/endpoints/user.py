@@ -17,7 +17,7 @@ def get_user_by_id(user_id: int, db: Session = Depends(get_db)) -> User:
 @router.post("/", response_model=UserSchema)
 def create_user(user: UserCreate, db: Session = Depends(get_db)):
     try:
-        db_user = User(**user.dict())
+        db_user = User(**user.model_copy())
         db.add(db_user)
         db.commit()
         db.refresh(db_user)

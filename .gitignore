@@ -26,3 +26,5 @@ build/
 
 # Optional: Ignore large dependency folders if they sneak in
 site-packages/
+
+.pytest_cache/
